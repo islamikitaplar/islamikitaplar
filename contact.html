@@ -1,0 +1,46 @@
+---
+layout: page
+title: İLETİŞİM
+description: Bizim için görüşleriniz önemli.
+background: '/img/telefon.jpg'
+form: true
+---
+
+<p>Yayınlanmasını istediğiniz kitapları bize yazın!</p>
+<form name="sentMessage" id="contactForm" novalidate>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>İsim</label>
+      <input type="text" class="form-control" placeholder="İsim" id="name" required data-validation-required-message="Lütfen isminizi giriniz.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Email Adresi</label>
+      <input type="email" class="form-control" placeholder="Email Adresi" id="email" required data-validation-required-message="Lütfen email adresini giriniz.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  
+  <div class="control-group">
+    <div class="form-group col-xs-12 floating-label-form-group controls">
+      <label>Telefon Numarası</label>
+      <input type="tel" class="form-control" placeholder="Telefon Numarası" id="phone" required data-validation-required-message="Lütfen telefon numaranızı giriniz.">
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+
+  <div class="control-group">
+    <div class="form-group floating-label-form-group controls">
+      <label>Mesaj</label>
+      <textarea rows="5" class="form-control" placeholder="Mesaj" id="message" required data-validation-required-message="Lütfen bir mesaj giriniz."></textarea>
+      <p class="help-block text-danger"></p>
+    </div>
+  </div>
+  <br>
+  <div id="success"></div>
+  <div class="form-group">
+    <button type="submit" class="btn btn-primary" id="sendMessageButton">Gönder</button>
+  </div>
+</form>
