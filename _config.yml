@@ -3,7 +3,7 @@ email:             islamikitaplareditor@gmail.com
 description:       İslami baş ucu kitaplarını Epub ve azw formatında, kindle ve e-kitap okuyucularına sunuyoruz.
 author:            İK Editor
 #baseurl:           "/"
-#url:               "http://islamikitaplar.github.io"
+url:               "http://islamikitaplar.github.io"
 
 
 logo: "/img/logo.png"
